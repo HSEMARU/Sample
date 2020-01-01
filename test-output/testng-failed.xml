@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TestSuite]">
+  <test name="SampleTests(failed)">
+    <groups>
+      <run>
+        <include name="Sample"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestSuites.PassedScenario">
+        <methods>
+          <include name="PassedCase"/>
+        </methods>
+      </class> <!-- TestSuites.PassedScenario -->
+    </classes>
+  </test> <!-- SampleTests(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

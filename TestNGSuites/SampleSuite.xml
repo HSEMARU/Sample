@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="10" name="TestSuite" annotations="JDK" parallel="none" preserve-order="true">
+
+
+	<test name="SampleTests" parallel="none" preserve-order="true">
+		<classes>
+			<class name="TestSuites.PassedScenario"/>
+		</classes>
+	</test>
+</suite>

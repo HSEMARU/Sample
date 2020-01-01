@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="13358" started-at="2020-01-01T12:28:53Z" finished-at="2020-01-01T12:29:07Z">
+    <groups>
+      <group name="Sample">
+        <method signature="PassedScenario.PassedCase()[pri:0, instance:TestSuites.PassedScenario@6df97b55]" name="PassedCase" class="TestSuites.PassedScenario"/>
+      </group> <!-- Sample -->
+    </groups>
+    <test name="SampleTests" duration-ms="13358" started-at="2020-01-01T12:28:53Z" finished-at="2020-01-01T12:29:07Z">
+      <class name="TestSuites.PassedScenario">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestSuites.PassedScenario@6df97b55]" name="beforeSuite" is-config="true" duration-ms="2018" started-at="2020-01-01T17:58:51Z" finished-at="2020-01-01T17:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestSuites.PassedScenario@6df97b55]" name="beforeClass" is-config="true" duration-ms="1" started-at="2020-01-01T17:58:53Z" finished-at="2020-01-01T17:58:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestSuites.PassedScenario@6df97b55]" name="beforeMethod" is-config="true" duration-ms="6399" started-at="2020-01-01T17:58:53Z" finished-at="2020-01-01T17:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="PassedCase()[pri:0, instance:TestSuites.PassedScenario@6df97b55]" name="PassedCase" duration-ms="6912" started-at="2020-01-01T17:59:00Z" finished-at="2020-01-01T17:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassedCase -->
+      </class> <!-- TestSuites.PassedScenario -->
+    </test> <!-- SampleTests -->
+  </suite> <!-- TestSuite -->
+</testng-results>

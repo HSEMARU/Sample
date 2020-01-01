@@ -1,0 +1,5 @@
+SamplePage\Locators.class
+Util\SafeActions.class
+SampleModule\Module.class
+TestSuites\PassedScenario.class
+SampleBase\AbstractBase.class
