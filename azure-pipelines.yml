@@ -7,9 +7,10 @@ trigger:
 - master
 
 pool:
-  SamplePool
   
-  #vmImage: 'vs2017-win2016'
+  #SamplePool
+  
+  vmImage: 'vs2017-win2016'
 
 steps:
 - task: Maven@3
