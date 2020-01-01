@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  SamplePool:SampleAgent
+  SamplePool
   
   #vmImage: 'vs2017-win2016'
 
