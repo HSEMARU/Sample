@@ -7,7 +7,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'vs2017-win2016'
+  SamplePool:SampleAgent
+  
+  #vmImage: 'vs2017-win2016'
 
 steps:
 - task: Maven@3
